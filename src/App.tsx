@@ -238,7 +238,7 @@ function App() {
                 { id: 'skills', label: 'Skills' },
                 { id: 'education', label: 'Education' },
                 ...(papers.length > 0 ? [{ id: 'papers', label: 'Papers' }] : []),
-                { id: 'certifications', label: 'Credentials' },
+                { id: 'certifications', label: 'Certifications' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
                 <button
@@ -272,7 +272,7 @@ function App() {
                 { id: 'skills', label: 'Skills' },
                 { id: 'education', label: 'Education' },
                 ...(papers.length > 0 ? [{ id: 'papers', label: 'Papers' }] : []),
-                { id: 'certifications', label: 'Credentials' },
+                { id: 'certifications', label: 'Certifications' },
                 { id: 'contact', label: 'Contact' }
               ].map((item) => (
                 <button
@@ -644,7 +644,7 @@ function App() {
       <section id="certifications" className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-display text-black mb-6 tracking-wide">CREDENTIALS</h2>
+            <h2 className="text-5xl font-display text-black mb-6 tracking-wide">CERTIFICATIONS</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-6"></div>
           </div>
           <div className="space-y-8">
