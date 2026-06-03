@@ -221,11 +221,11 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-cream overflow-x-auto">
+    <div className="min-h-screen bg-cream overflow-x-hidden">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-md border-b border-brown/20">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-xl md:text-2xl font-display text-black tracking-wide">
+            <div className="flex-1 min-w-0 pr-4 text-lg sm:text-xl md:text-2xl font-display text-black tracking-wide leading-tight truncate">
               MALIKA SINGH
             </div>
 
@@ -301,13 +301,13 @@ function App() {
                 className="w-36 h-36 rounded-full mx-auto mb-6 object-cover border-4 border-brown/30 shadow-lg"
               />
             </div>
-            <h1 className="text-5xl md:text-6xl font-display text-black mb-6 tracking-wide">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-display text-black mb-6 tracking-wide leading-tight break-words">
               MALIKA SINGH
             </h1>
             <div className="text-lg text-brown mb-2 font-light tracking-widest">
               CMA USA | CFA LEVEL II CANDIDATE
             </div>
-            <div className="text-sm uppercase tracking-[0.3em] text-brown/80 mb-1">
+            <div className="text-sm uppercase tracking-[0.18em] sm:tracking-[0.3em] text-brown/80 mb-1">
               DURHAM, NC, USA
             </div>
             <div className="w-24 h-0.5 bg-brown mx-auto mb-10"></div>
@@ -354,7 +354,7 @@ function App() {
       <section id="summary" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-display text-black mb-8 tracking-wide">SUMMARY</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-8 tracking-wide leading-tight break-words">SUMMARY</h2>
             <p className="text-lg text-brown max-w-3xl mx-auto font-light">
               Finance and analytics specialist combining FP&A execution, investment analysis, and data-driven decision support across technology, pharmaceutical, and financial services environments.
             </p>
@@ -392,7 +392,7 @@ function App() {
       <section id="experience" className="py-24 bg-cream">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-display text-black mb-8 tracking-wide">WORK EXPERIENCE</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-8 tracking-wide leading-tight break-words">WORK EXPERIENCE</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-8"></div>
             <p className="text-lg text-brown max-w-3xl mx-auto font-light">
               FP&A, revenue forecasting, financial services analysis, and business process management experience across global finance and operating teams.
@@ -427,7 +427,7 @@ function App() {
       <section id="projects" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-display text-black mb-8 tracking-wide">PROJECTS</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-8 tracking-wide leading-tight break-words">PROJECTS</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-8"></div>
             <p className="text-lg text-brown max-w-2xl mx-auto font-light">
               Private markets analytics, marketplace revenue analysis, LBO valuation, and fixed income credit risk modeling projects.
@@ -557,7 +557,7 @@ function App() {
       <section id="skills" className="py-24 bg-cream">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-display text-black mb-8 tracking-wide">SKILLS</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-8 tracking-wide leading-tight break-words">SKILLS</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-8"></div>
             <p className="text-lg text-brown max-w-2xl mx-auto font-light">
               Financial modeling, analytics, business intelligence, finance platforms, and automation expertise.
@@ -587,7 +587,7 @@ function App() {
       <section id="education" className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-display text-black mb-6 tracking-wide">EDUCATION</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-6 tracking-wide leading-tight break-words">EDUCATION</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-6"></div>
           </div>
           <div className="space-y-8">
@@ -615,7 +615,7 @@ function App() {
         <section id="papers" className="py-24 bg-cream">
           <div className="max-w-4xl mx-auto px-6">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-display text-black mb-6 tracking-wide">PAPERS PUBLISHED</h2>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-6 tracking-wide leading-tight break-words">PAPERS PUBLISHED</h2>
               <div className="w-16 h-0.5 bg-brown mx-auto mb-6"></div>
               <p className="text-lg text-brown max-w-2xl mx-auto font-light">
                 Research and publications in finance, analytics, and quantitative modeling.
@@ -644,7 +644,7 @@ function App() {
       <section id="certifications" className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-display text-black mb-6 tracking-wide">CERTIFICATIONS</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display text-black mb-6 tracking-wide leading-tight break-words">CERTIFICATIONS</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-6"></div>
           </div>
           <div className="space-y-8">
@@ -667,7 +667,7 @@ function App() {
       <section id="contact" className="py-24 bg-black text-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h2 className="text-5xl font-display mb-8 tracking-wide">CONTACT</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-display mb-8 tracking-wide leading-tight break-words">CONTACT</h2>
             <div className="w-16 h-0.5 bg-brown mx-auto mb-8"></div>
             <p className="text-xl text-white/80 max-w-3xl mx-auto font-light">
               Let's discuss FP&A, investment analytics, financial modeling, or business analytics opportunities.
