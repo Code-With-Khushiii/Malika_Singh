@@ -182,9 +182,9 @@ function App() {
       description: "Credential focused on management accounting, financial planning, analysis, control, decision support, and professional ethics."
     },
     {
-      title: "CFA Level II Candidate",
+      title: "CFA Level 1 Candidate",
       platform: "CFA Institute",
-      description: "Candidate for CFA Level II, with focus areas including equity valuation, fixed income, derivatives, portfolio management, and financial reporting."
+      description: "Candidate for CFA Level 1, with focus areas including equity valuation, fixed income, derivatives, portfolio management, and financial reporting."
     }
   ];
 
@@ -302,7 +302,7 @@ function App() {
               MALIKA SINGH
             </h1>
             <div className="text-lg text-brown mb-2 font-light tracking-widest">
-              CMA USA | CFA LEVEL II CANDIDATE
+              CMA USA | CFA LEVEL 1 CANDIDATE
             </div>
             <div className="text-sm uppercase tracking-[0.18em] sm:tracking-[0.3em] text-brown/80 mb-1">
               DURHAM, NC, USA
@@ -326,7 +326,7 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-16 text-center">
+          {/* <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-16 text-center">
             {[
               { label: 'COGS ANALYZED', value: '$120M+', detail: 'Across 6 Cost Centers' },
               { label: 'REPORTING TURNAROUND', value: '40%', detail: 'Reduction Through Automation' },
@@ -338,7 +338,7 @@ function App() {
                 <div className="text-sm text-brown font-light">{stat.detail}</div>
               </div>
             ))}
-          </div>
+          </div> */}
           <div className="text-center mt-12">
             <ChevronDown
               className="w-6 h-6 text-brown/60 mx-auto animate-bounce cursor-pointer hover:text-black transition-colors"
